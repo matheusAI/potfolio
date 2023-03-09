@@ -1,0 +1,218 @@
+*{
+    color: white;
+}
+body{
+    background: rgb( 30, 30, 30);
+    margin: 0;
+}
+nav {
+  position: fixed;
+	background: rgb(40, 0, 77);
+	height: 80px;
+	width: 100%;
+}
+label.logo {
+	color: red;
+	font-size: 40px;
+	line-height: 80px;
+	padding: 0 50px 0 100px;
+	font-weight: bold;
+}
+nav .u {
+	float: right;
+	margin-right: 20px;
+	align-items: center;
+}
+nav .u .l {
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav .u .l a {
+	color: red;
+	font-size: 20px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+a.active, a:hover {
+	background: #1d075f;
+	transition: .5s;
+}
+.checkbtn {
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+span {
+  background: red;
+  padding: 2px 1px;
+  width: 25px ;
+  margin: 3px;
+  display: flex;
+}
+#check {
+	display: none;
+}
+.espaco {
+  margin: 0 0 100px 0;
+  padding: 5px 0;
+  width: 100%;
+}
+.sobre{
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: black;
+    border-radius: 30px;
+}
+.eu,p {
+    width: 40%;
+    color: red;
+    font-size: 30pt;
+}
+.ms{
+  width: 50%;
+  border: solid  10px red;
+  border-radius: 50%;
+}
+.areadeprojetos {
+  display: flex;
+  justify-content: center;
+}
+.cobra {
+  padding: 10px;
+  background-image: linear-gradient(150deg, #FF0000, #ff0099, #9900cc,#0000ff,#ff0000,#ff0099);
+  background-size: 1000%;
+  animation: animate-background 10s Infinite ease-in-out;
+}
+.menuprojeto {
+  display: flex;
+  border: solid 1px black;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  background: rgb( 30, 30, 30);
+}
+.mp {
+  text-transform: uppercase;
+  font-size: 30px;
+  border-radius: 8px;
+  color: black;
+  background: #ff0000;
+}
+@keyframes animate-background {
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 50% 100%;
+  }
+  100%{
+    background-position: 100% 50%;
+  }
+}
+.habilidades {
+  padding: 50px 0;
+  width: 100%;
+}
+.d {
+  display: flex;
+  justify-content: center;
+}
+.h {
+  margin: 2px;
+  width: 40%;
+  background-image: linear-gradient(to right,rgb(75, 75, 75),rgb(40, 0, 77),rgb(75, 75, 75));
+  border-radius: 10%;
+  background-size: 500%;
+  animation: animate-background 15s Infinite ease-in-out;
+}
+.mls {
+  padding: 50px 5px;
+  margin: 0;
+  width: 100%;
+  background-image: linear-gradient(to right,rgb(75, 75, 75),rgb(40, 0, 77),rgb(75, 75, 75));
+  border-radius: 15px;
+  background-size: 500%;
+  animation: animate-background 20s Infinite ease-in-out;
+}
+.ml {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.ls {
+  list-style: none;
+}
+.s {
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 8px;
+}
+@media (max-width: 895px){
+
+	label.logo{
+		font-size: 30px;
+		padding-left: 50px;
+	}
+	nav .u .l a{
+		font-size: 16px;
+	}
+}
+@media (max-width: 858px){
+	.checkbtn {
+		display: block;
+		margin-top: 25px;
+	}
+	.u{
+	  justify-content: center;
+		position: fixed;
+		width: 40%;
+		border-radius: 25px;
+		background: black;
+		top: 65px;
+		left: +100%;
+		text-align: center;
+		transition: all .5s;
+	}
+	nav .u .l{
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+	}
+	nav .u .l a {
+		font-size: 20px;
+	}
+	a:hover, a.active {
+		background: none;
+		color: #5434af;
+	}
+	#check:checked ~ .u {
+		left: 50%;
+	}
+	.i {
+	  height: 50px;
+	}
+	.sobre{
+	  display: block;
+	  background: none;
+	}
+	.eu {
+    width: 90%;
+    color: red;
+    font-size: 20pt;
+    margin: 0 0 0 10px;
+	}
+	.ms{
+  width: 80%;
+  margin: 0 0 0 15px;
+	}
+}
