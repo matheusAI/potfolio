@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   background: linear-gradient(120deg, #121215, #ff2525da, #121215);
 }
@@ -149,8 +152,6 @@ span {
   width: 100%;
   background: #121215;
   border-radius: 15px;
-  background-size: 500%;
-  animation: animate-background 20s Infinite ease-in-out;
 }
 .ml {
   display: flex;
@@ -221,5 +222,6 @@ span {
   .areadeprojetos {
     align-items: center;
     flex-direction: column;
+    gap: 20px;
   }
 }
