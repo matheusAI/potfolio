@@ -181,7 +181,7 @@ span {
   font-size: 20px;
   color: #ffffff;
 }
-@media (max-width: 895px) {
+@media (max-width: 995px) {
   label.logo {
     font-size: 30px;
     padding-left: 50px;
