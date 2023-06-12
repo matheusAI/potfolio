@@ -121,6 +121,9 @@ span {
   text-decoration: none;
   text-transform: uppercase;
 }
+.i{
+  width: 90px;
+}
 .areadeprojetos {
   display: flex;
   justify-content: space-around;
@@ -216,7 +219,7 @@ span {
     left: 60%;
   }
   .i {
-    height: 50px;
+    height: 60px;
   }
   .sobre {
     display: block;
@@ -238,6 +241,9 @@ span {
   .ms {
     width: 70%;
     margin: 0 0 0 15px;
+  }
+  .i{
+    width: 55px;
   }
   .areadeprojetos {
     align-items: center;
