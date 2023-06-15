@@ -127,7 +127,7 @@ span {
 .areadeprojetos {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
   flex-wrap: wrap;
 }
 .titulo {
