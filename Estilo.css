@@ -126,7 +126,8 @@ span {
 }
 .areadeprojetos {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 20px;
   flex-wrap: wrap;
 }
 .titulo {
