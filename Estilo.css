@@ -83,7 +83,7 @@ span {
   justify-content: center;
   width: 80%;
   color: #aaaaaa;
-  font-size: 40pt;
+  font-size: 30pt;
   margin: 20px 0 0 20px;
 }
 .eu3 {
@@ -91,7 +91,7 @@ span {
   justify-content: center;
   width: 80%;
   color: #aaaaaa;
-  font-size: 40pt;
+  font-size: 30pt;
   margin: 20px 0 0 20px;
 }
 .cont-ms {
@@ -144,7 +144,7 @@ span {
 }
 .menuprojeto {
   display: flex;
-  width: 93%;
+  width: 92%;
   border: solid 1px rgb(0, 0, 0);
   justify-content: space-around;
   align-items: center;
