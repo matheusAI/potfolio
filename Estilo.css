@@ -19,9 +19,9 @@ nav {
 }
 label.logo {
   color: #ff0000;
-  font-size: 35px;
+  font-size: 40px;
   line-height: 80px;
-  padding: 0 50px 0 50px;
+  padding: 0 0 0 30px;
   font-weight: bold;
 }
 nav .u {
@@ -36,7 +36,7 @@ nav .u .l {
 }
 nav .u .l a {
   color: #ff0000;
-  font-size: 15px;
+  font-size: 17px;
   padding: 7px 10px;
   border-radius: 3px;
   text-transform: uppercase;
@@ -66,6 +66,7 @@ span {
   font-size: 50pt;
   font-weight: bold;
   color: #ff0000;
+  margin-top: 30px;
   margin-bottom: 20px;
   padding: 10px 5%;
   background: #121215;
@@ -74,6 +75,7 @@ span {
   box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
 }
 .sobre {
+  margin-top: 90px;
   width: 100%;
   padding: 10px 0px;
   display: flex;
@@ -108,7 +110,6 @@ span {
   flex-direction: column;
   align-items: center;
   flex: 1;
-  background: #121215;
 }
 .ms {
   width: 50%;
@@ -116,13 +117,17 @@ span {
   border-radius: 50%;
 }
 .mls {
-  width: 100%;
-  margin: 10px;
+  width: 95%;
+  margin-bottom: 20px;
 }
 .ml {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 20px;
+  background: #121415;
+  border-radius: 10px;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
 }
 .ls {
   list-style: none;
@@ -166,6 +171,7 @@ span {
 .mp {
   text-transform: uppercase;
   font-size: 30px;
+  font-weight: 600;
   border-radius: 8px;
   color: black;
   background: #ff0000;
@@ -186,6 +192,7 @@ span {
   box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
 }
 .direitos-p {
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   width: 100%;
@@ -194,15 +201,13 @@ span {
 .direitos-p p {
   padding: 50px;
   font-size: 20px;
+  text-align: center;
   color: #ffffff;
 }
 @media (max-width: 768px) {
   label.logo {
     font-size: 30px;
     padding-left: 50px;
-  }
-  nav .u .l a {
-    font-size: 16px;
   }
   .checkbtn {
     display: block;
@@ -214,7 +219,8 @@ span {
     width: 40%;
     border-radius: 25px;
     background: #121215;
-    top: 65px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+    top: 85px;
     left: +100%;
     text-align: center;
     transition: all 0.5s;
@@ -239,6 +245,7 @@ span {
     box-shadow: none;
   }
   .cont-ms {
+    background: #121215;
     border-radius: 30px;
     box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
   }
@@ -254,8 +261,7 @@ span {
     margin-bottom: 100px;
   }
   .ms {
-    width: 50%;
-    margin: 0 0 0 15px;
+    margin-top: 20px;
   }
   .direitos-p p {
     font-size: 10px;
