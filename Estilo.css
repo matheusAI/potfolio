@@ -147,7 +147,7 @@ span {
   margin: 50px 0;
 }
 .titulo {
-  font-size: 35px;
+  font-size: 25px;
   color: #121215;
 }
 .projetos {
@@ -161,7 +161,7 @@ span {
 }
 .menuprojeto {
   display: flex;
-  width: 92%;
+  width: 140px;
   border: solid 1px rgb(0, 0, 0);
   justify-content: space-around;
   align-items: center;
@@ -170,9 +170,9 @@ span {
 }
 .mp {
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 600;
-  border-radius: 8px;
+  border-radius: 10px;
   color: black;
   background: #ff0000;
 }
@@ -186,10 +186,16 @@ span {
 .h {
   padding: 10px;
   width: 150px;
+  height: 150px;
   background: #121215;
   background: transporte;
   border-radius: 15px;
   box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+}
+.h:hover {
+  transition: 2s;
+  width: 180px;
+  height: 180px;
 }
 footer {
   margin-top: 20px;
