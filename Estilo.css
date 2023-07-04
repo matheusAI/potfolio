@@ -191,14 +191,14 @@ span {
   border-radius: 15px;
   box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
 }
-.direitos-p {
+footer {
   margin-top: 20px;
   display: flex;
   justify-content: center;
   width: 100%;
   background: #121215;
 }
-.direitos-p p {
+footer p {
   padding: 50px;
   font-size: 20px;
   text-align: center;
@@ -263,7 +263,7 @@ span {
   .ms {
     margin-top: 20px;
   }
-  .direitos-p p {
+  footer p {
     font-size: 10px;
   }
 }
