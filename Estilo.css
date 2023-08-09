@@ -255,6 +255,9 @@ footer p {
     border-radius: 30px;
     box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
   }
+  .eu1 {
+    margin-left: 20px;
+ }
   .eu1,
   .eu2,
   .eu3 {
