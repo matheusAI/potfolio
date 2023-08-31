@@ -194,8 +194,7 @@ span {
 }
 .h:hover {
   transition: 2s;
-  width: 180px;
-  height: 180px;
+  scale: 1.2;
 }
 footer {
   margin-top: 20px;
@@ -262,6 +261,7 @@ footer p {
     color: #aaaaaa;
     font-size: 20pt;
     margin: 20px 0 0 0;
+    text-align: center;
   }
   .eu3 {
     margin-bottom: 100px;
