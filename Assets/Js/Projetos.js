@@ -32,7 +32,7 @@ const dados = {
       id: 4,
       titulo: "devlinks",
       conteudo: "Descrição",
-      imag: "Assets/imag/Screenshot_20231210-180732_Opera GX.jpg",
+      imag: "Assets/Imag/Screenshot_20231210-180732_Opera GX.jpg",
       url: "https://matheusai.github.io/DEVLINKS/",
     },
   ],
