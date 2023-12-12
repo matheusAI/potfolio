@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(120deg, #121215, #ff2525da, #121215);
+}
+nav {
+  position: fixed;
+  background: #121215;
+  height: 80px;
+  width: 100%;
+}
+label.logo {
+  color: #ff0000;
+  font-size: 40px;
+  line-height: 80px;
+  padding: 0 0 0 30px;
+  font-weight: bold;
+}
+nav .u {
+  float: right;
+  margin-right: 20px;
+  align-items: center;
+}
+nav .u .l {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav .u .l a {
+  color: #ff0000;
+  font-size: 17px;
+  padding: 7px 10px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.checkbtn {
+  font-size: 30px;
+  color: #ffffff;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+span {
+  background: #ff0000;
+  padding: 2px 1px;
+  width: 25px;
+  margin: 3px;
+  display: flex;
+}
+#check {
+  display: none;
+}
+.espaco {
+  text-align: center;
+  font-size: 50pt;
+  font-weight: bold;
+  color: #ff0000;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  padding: 10px 5%;
+  background: #121215;
+  border: solid 10px #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+}
+.sobre {
+  margin-top: 90px;
+  width: 100%;
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #121215;
+  border-radius: 30px;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+}
+.eu1 {
+  flex: 1;
+  width: 60ch;
+  color: #ff0000;
+  font-size: 35pt;
+}
+.eu2 {
+  width: 80%;
+  color: #aaaaaa;
+  font-size: 30pt;
+  margin: 20px 0 0 20px;
+}
+.eu3 {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  color: #aaaaaa;
+  font-size: 30pt;
+  margin: 10px 0 100px 20px;
+}
+.cont-ms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+.ms {
+  width: 50%;
+  border: solid 10px #ff0000;
+  border-radius: 50%;
+}
+.mls {
+  width: 95%;
+  margin-bottom: 20px;
+}
+.ml {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  background: #121415;
+  border-radius: 10px;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+}
+.ls {
+  list-style: none;
+}
+.s {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.i {
+  width: 60px;
+}
+
+#projetos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.projeto {
+  padding: 10px;
+  border-radius: 3px;
+  background: transporte;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+}
+.projeto h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.projeto a {
+  color: #000000;
+  text-decoration: none;
+}
+.projeto img {
+  height: 400px;
+}
+.habilidades {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 100px 0;
+}
+.h {
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  background: #121215;
+  background: transporte;
+  border-radius: 15px;
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+  transition: 1s;
+}
+.h:hover {
+  transition: 2s;
+  scale: 1.2;
+}
+footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: #121215;
+}
+footer p {
+  padding: 50px;
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+@media (max-width: 768px) {
+  label.logo {
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  .checkbtn {
+    display: block;
+    margin-top: 25px;
+  }
+  .u {
+    justify-content: center;
+    position: fixed;
+    width: 40%;
+    border-radius: 25px;
+    background: #121215;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+    top: 85px;
+    left: +100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  nav .u .l {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav .u .l a {
+    font-size: 20px;
+  }
+  #check:checked ~ .u {
+    left: 60%;
+  }
+  .i {
+    height: 60px;
+  }
+  .sobre {
+    display: block;
+    background: none;
+    box-shadow: none;
+  }
+  .cont-ms {
+    background: #121215;
+    border-radius: 30px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.5);
+  }
+  .eu1,
+  .eu2,
+  .eu3 {
+    width: 90%;
+    color: #aaaaaa;
+    font-size: 20pt;
+    margin: 20px 0 0 0;
+    text-align: center;
+  }
+  .eu3 {
+    margin-bottom: 100px;
+  }
+  .ms {
+    margin-top: 20px;
+  }
+  footer p {
+    font-size: 10px;
+  }
+}
